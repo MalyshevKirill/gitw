@@ -10,3 +10,9 @@
 .reposList > div:not(:last-child) {
     margin-bottom: 10px;
 }
+
+@media (max-width: 579px) {
+    .reposList {
+        margin: 10px 0 0 0;
+    }
+}

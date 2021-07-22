@@ -55,7 +55,7 @@ function App() {
   return (
     <div className="App">
         <Header CheckGitAcc={CheckGitAcc} loadingStatus={loadingStatus}></Header>
-        {loadingStatus===2?<MainView userInfo={userInfo} userReposList={userReposList}></MainView>:null}
+        {loadingStatus===2&&userInfo!=null&&userReposList!=null?<MainView userInfo={userInfo} userReposList={userReposList}></MainView>:null}
     </div>
   );
 }

@@ -1,9 +1,9 @@
-.userInfo_wrapper {
+.userInfo {
     display: flex;
     flex-direction: column;
 }
 
-.userInfo {
+.userInfo_mainInfo {
     background-color: #d5d0cc;
     margin-bottom: 10px;
     padding: 15px;

@@ -6,8 +6,8 @@ import Counter from '../Counter/Counter'
 
 const userInfo = (props) => {
     return (
-        <div className={c.userInfo_wrapper}>
-            <div className={c.userInfo}>
+        <div className={c.userInfo}>
+            <div className={c.userInfo_mainInfo}>
                 <img className={c.userInfo_image} src={props.userInfo.avatar_url} alt="" />
                 <span className={c.userInfo_name}>{props.userInfo.name}</span>
                 <span className={c.userInfo_login}>{"@"+props.userInfo.login}</span>
